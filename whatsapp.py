@@ -18,13 +18,11 @@ driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600) 
 print("confirmed1")
   
-# Replace 'Friend's Name' with the name of your friend  
-# or the name of a group  
-target = '"Ann WhatsApp"'
+target = '"Enter contact"'
 print("confirmed2")
   
 # Replace the below string with your own message 
-string = "i love you"
+string = "#enter message"
 print("confirmed3")
   
 x_arg = '//span[contains(@title,' + target + ')]'

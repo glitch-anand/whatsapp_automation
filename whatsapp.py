@@ -6,13 +6,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 import sys
-# Replace below path with the absolute path of the \
-#chromedriver in your computer
-#WebDriver driver = new FirefoxDriver();
+# Replace below path with the absolute path of the gecko driver
+
 driver = webdriver.Firefox(executable_path ='/root/Desktop/geckodriver')
-#x-special/nautilus-clipboard
-#copy
-#file:///root/Desktop/geckodriver
+
 
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600) 
